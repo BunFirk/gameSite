@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-family: "PixelFont", sans-serif;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#menu{
+    margin-top: 15px;
+    margin-left: 54px;
+    
+}
+
+#menu p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 190px;
+    height: 60px;
+    font-size: 60px;
+}
+#menu p:hover{
+    cursor: pointer;
+    transform: rotate(0.7deg);
+}
+
+
+.onHoverBack{
+    display: none;
+    font-size: 50px;
+}
+#backP:hover .onHoverBack{
+    display: inline;
+}
+#backP:hover{
+    color: rgb(235, 235, 235);
+}
+
+
+
+#rateLogo{
+    margin-left: 54px;
+    font-size: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#priceP{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 54px;
+}
+
+#priceOfCoin{
+    font-size: 45px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 54px;
+}
+
+#priceS{
+    color: rgb(255, 219, 219);
+    font-size: 45px;
+    margin-top: 1px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+#priceDiv{
+    display: flex;
+    width: 200px;
+}
+
+#updPrice{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 54px;
+}
+
+
+#priceArrow{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    color: #ffffff;
+    margin-left: 5px;
+    line-height: 3px;
+}
+#balanseP{
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(255, 248, 222);
+    margin-top: 61px;
+    margin-left: 54px;
+}
+
+#buySellDiv{
+    display: flex;
+}
+
+#buyP{
+    color: #86ff78;
+}
+#sellP{
+    color: #ff7878;
+}
+
+#buyPS{
+    display: none;
+}
+#buyPF{
+    display: none;
+}
+#buyP:hover #buyPS{
+    display: inline;
+}
+#buyP:hover #buyPF{
+    display: inline;
+}
+
+#sellPS{
+    display: none;
+}
+#sellPF{
+    display: none;
+}
+#sellP:hover #sellPS{
+    display: inline;
+}
+#sellP:hover #sellPF{
+    display: inline;
+}
